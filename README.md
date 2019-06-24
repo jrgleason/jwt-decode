@@ -24,7 +24,9 @@ console.log(decoded);
  */
 ~~~
 
-## TODO: Webpack to make ES5 Compatible
+## Webpack
+
+`npm run build` Should build and the ES5 version should be available via babel in the dist folder.
 
 ## Issue Reporting
 
