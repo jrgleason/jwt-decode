@@ -1,6 +1,6 @@
 {
   "name": "@jrg/jwt-decode",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Decode JWT tokens, mostly useful for browser applications. Based on https://github.com/auth0/jwt-decode",
   "main": "lib/index.mjs",
   "keywords": [
