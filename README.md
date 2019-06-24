@@ -11,9 +11,10 @@ Use with AMD, browserify or just include with an script tag.
 ## Usage
 
 ~~~javascript
-var token = 'eyJ0eXAiO.../// jwt token';
+import { decode } from '@jrg/jwt-decode';
+const token = 'eyJ0eXAiO.../// jwt token';
 
-var decoded = jwt_decode(token);
+const decoded = decode(token);
 console.log(decoded);
 
 /* prints:
@@ -23,21 +24,7 @@ console.log(decoded);
  */
 ~~~
 
-**Note:** A falsy token will throw an error.
-
-Can also be used with [browserify] or [webpack] by doing `npm install jwt-decode` and requiring:
-
-~~~javascript
-var jwtDecode = require('jwt-decode');
-~~~
-
-## Polymer Web Component
-
-Can also be installed and used with [Polymer-based wrapper](https://github.com/firmfirm/f-jwt-decode).
-
-## Develop
-
-Run `grunt dev` and fire a browser at http://localhost:9999/test_harness.html.
+## TODO: Webpack to make ES5 Compatible
 
 ## Issue Reporting
 
@@ -45,11 +32,11 @@ If you have found a bug or if you have a feature request, please report them at 
 
 ## Author
 
-[Auth0](https://auth0.com)
+[Jackie Gleason]: https://jackiergleason.com
 
 ## License
 
 This project is licensed under the MIT license. See the [LICENSE](LICENSE.txt) file for more info.
 
-[browserify]: http://browserify.org
+[jwt-decode]: https://github.com/auth0/jwt-decode
 [webpack]: http://webpack.github.io/
